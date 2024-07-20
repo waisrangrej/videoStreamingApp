@@ -1,0 +1,15 @@
+{
+  "name": "full-stsvk-youtube-project",
+  "version": "1.0.0",
+  "description": "vedio streaming app with full functionalies",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .src/index.js"
+  },
+  "author": "wais alam",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
