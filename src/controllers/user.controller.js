@@ -171,7 +171,7 @@ try {
     throw new apiError(401,"Invalid refresh token")
   }
   
-  if(inComingRefreshToken !== User?.refreshToken ){
+  if(!inComingRefreshToken !== User?.refreshToken ){
     throw new apiError(401,"refresh token is expired or user")
   }
   
